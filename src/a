@@ -1,0 +1,34 @@
+Clean up
+resources folder
+remove old imports 
+remove old styles 
+
+Ui 
+Search bar
+charts 
+Clear functionality
+Company table component 
+    switch to map
+nice button component
+submit project component
+Stock charts
+
+settings page eventually 
+
+Upload files when Backend
+
+UX
+Basically all of it 
+
+Backend
+CRUD sign in 
+Crud functionality for project Upload
+Buy sell Crud functionality
+User funds tracker
+Get stock data numbers 
+
+deployment
+Set up git 
+set up azure
+register domain
+deploy 

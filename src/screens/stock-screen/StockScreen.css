@@ -1,0 +1,17 @@
+.market-buy {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.buy-button {
+    height: 20px;
+    align-self: center;
+    margin-left: 5px;
+}
+
+.project-description{
+    text-align: left;
+    background-color: red;
+    margin-left: 50px;
+}
