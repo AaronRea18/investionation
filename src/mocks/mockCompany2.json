@@ -1,0 +1,25 @@
+ {
+    "companyName": "PWC",
+    "companyDescription": "Accounting and audting firm that yada yada yada we make numbers look big",
+    
+    "optionArray": [
+      {
+        "projectName": "Engagement Guest",
+        "projectDescription": "Show accounts all the data in a convient location to help them manage internationalization",
+        "projectFIle": "Figure out how to get these"
+      },
+
+      {
+        "projectName": "Connect",
+       "projectDescription": "A one stop news shop for all accounting needs and updates",
+        "projectFIle": "Figure out how to get these"
+      },
+      {
+        "projectName": "Test Project",
+        "projectDescription": "A oneasdgdafhdsfhsdgfhsdfhsdfhbsdfhsdfghsdfbhhadrrbhsdgsdgshsdtgfhsdghsgheth stop news shop for all accounting needs and updates",
+        "projectFIle": "Figure out how to get these"
+      }
+
+
+    ]
+  }

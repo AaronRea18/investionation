@@ -1,33 +1,33 @@
 import './CompanyLandingPage.css';
 
-function CompanyLandingPage() {
+function CompanyLandingPage({strings}) {
   return (
     <div>
       <p>SAS Project screen</p>
       <div>
-        <p>Add a project</p>
+        <p>{strings.addProject}</p>
         <div>
-          <input type="text" placeholder="Project Name" />
+          <input type="text" placeholder={strings.projectName} />
         </div>
         <div>
-          <input type="text" placeholder="Project Description" />
+          <input type="text" placeholder={strings.projectDescription} />
         </div>
         <div>
           <button type="submit" >
-            <i className="fa fa-search">Document Upload</i>
+            <i className="fa fa-search">{strings.documentUpload}</i>
           </button>
         </div>
-        <button>Upload project description</button>
+        <button>{strings.uploadProjectDescription}</button>
       </div>
       <table>
         <div>
-          <ui> Project Name</ui>
-          <ui> Last Edited</ui>
-          <ui> Uploader</ui>
-          <ui> Description</ui>
-          <ui> Document</ui>
-          <ui> Edit Props</ui>
-          <ui> Delete Project</ui>
+          <ui> {strings.projectName}</ui>
+          <ui> {strings.lastEdited}</ui>
+          <ui> {strings.uploader}</ui>
+          <ui> {strings.description}</ui>
+          <ui> {strings.document}</ui>
+          <ui> {strings.editProps}</ui>
+          <ui> {strings.deleteProject}</ui>
         </div>
         {/* switch to map */}
         <div>

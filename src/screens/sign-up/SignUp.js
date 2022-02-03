@@ -1,26 +1,26 @@
 import './SignUp.css';
   import { Link  } from "react-router-dom";
-function SignIn() {
+function SignIn({strings}) {
   return (
     <div>
-      <p>Sign Up</p>
+      <p>{strings.signUp}</p>
       <div className='username'>
         <p>Are you a company repersentative?</p>
         <input className='buy-button' type="checkbox" />
       </div>
       <div className='username'>
-        <p>Email</p>
-        <input className='buy-button' type="text" placeholder="User Name" />
+        <p>{strings.email}</p>
+        <input className='buy-button' type="text" placeholder={strings.email} />
 
       </div>
       <div className='password'>
-        <p>Password</p>
-        <input className='buy-button' type="text" placeholder="Password" />
+        <p>{strings.password}</p>
+        <input className='buy-button' type="text" placeholder={strings.password} />
 
       </div>
       <div className='password'>
-        <p>Password confirmation </p>
-        <input className='buy-button' type="text" placeholder="Password" />
+        <p>{strings.passwordConfirmation} </p>
+        <input className='buy-button' type="text" placeholder={strings.password} />
 
       </div>
       {/* <div className='condtional-info'>
@@ -28,9 +28,9 @@ function SignIn() {
       </div> */}
 
       <div className='submit'>
-        <button>Clear</button>
-        <button> <Link to="/companyHome"> Sign Up</Link></button>
-        <button><Link to="/"> Sign In</Link></button>
+        <button>{strings.clear}</button>
+        <button> <Link to="/companyHome"> {strings.signUp}</Link></button>
+        <button><Link to="/"> {strings.signIn}</Link></button>
       </div>
 
     </div>

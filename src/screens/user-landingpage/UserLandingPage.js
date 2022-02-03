@@ -1,6 +1,6 @@
 import './UserLandingPage.css';
-
-function UserLandingPage() {
+import UserTableMockJson from '../../mocks/userTableMock.json'
+function UserLandingPage({strings}) {
   return (
     <div>
       <p>Aaron's dashboard</p>
@@ -9,12 +9,12 @@ function UserLandingPage() {
 
       <table>
         <div>
-          <ui> Company</ui>
-          <ui> Project</ui>
-          <ui> Action</ui>
-          <ui> Price</ui>
-          <ui> Time placed</ui>
-          <ui> Time Completed</ui>
+          <ui> {strings.company}</ui>
+          <ui> {strings.project}</ui>
+          <ui> {strings.action}</ui>
+          <ui> {strings.price}</ui>
+          <ui> {strings.timePlaced}</ui>
+          <ui> {strings.timeCompleted}</ui>
         </div>
         <div>
           <ui> Advanced Analytics</ui>

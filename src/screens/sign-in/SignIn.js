@@ -1,24 +1,24 @@
 import './SignIn.css';
 import { Link } from "react-router-dom";
-function SignIn() {
+function SignIn({strings}) {
   return (
     <div>
-      <p>Sign In</p>
+      <p>{strings.signIn}</p>
       <div className='username'>
-        <p>Email</p>
-        <input className='buy-button' type="text" placeholder="User Name" />
+        <p>{strings.email}</p>
+        <input className='buy-button' type="text" placeholder={strings.email} />
 
       </div>
       <div className='password'>
-        <p>Password</p>
-        <input className='buy-button' type="text" placeholder="Password" />
+        <p>{strings.password}</p>
+        <input className='buy-button' type="text" placeholder={strings.password} />
 
       </div>
 
       <div className='submit'>
-        <button>Clear</button>
-        <button><Link to="/userHome"> Sign In</Link></button>
-        <button > <Link to="/signUp"> Sign Up</Link></button>
+        <button>{strings.clear}</button>
+        <button><Link to="/userHome"> {strings.signIn}</Link></button>
+        <button > <Link to="/signUp"> {strings.signUp}</Link></button>
       </div>
 
     </div>

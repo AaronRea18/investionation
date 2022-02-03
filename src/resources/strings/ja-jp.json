@@ -1,6 +1,6 @@
 {
     "companyLanding": {
-        "addProject": "Add a project",
+        "addProject": "Add a project in Japanese",
         "projectName": "Project Name",
         "projectDescription": "Project Description",
         "documentUpload": "Document Upload",
@@ -13,19 +13,19 @@
         "deleteProject": "Delete Project"
     },
     "header": {
-        "search": "Search",
+        "search": "Search something in Japanese",
         "logout": "Log out",
         "searchCompanies": "Search Companies"
     },
     "signIn": {
-        "email": "Email",
+        "email": "Email in Japanese",
         "password": "Password",
         "clear": "Clear",
         "signIn": "Sign In",
         "signUp": "Sign Up"
     },
     "signUp": {
-        "email": "Email",
+        "email": "Email in Japanese",
         "password": "Password",
         "clear": "Clear",
         "signIn": "Sign In",
@@ -33,12 +33,12 @@
         "passwordConfirmation":"Password Confirmation"
     },
     "stockScreen": {
-        "companyInfo":"Company Info",
+        "companyInfo":"Company Info in Japanese",
         "projectInfo":"Project Info",
         "buy":"Buy"
     },
     "userLanding": {
-        "company":"Company",
+        "company":"Company In japanese",
         "project":"Project",
         "action":"Action",
         "price":"Price",

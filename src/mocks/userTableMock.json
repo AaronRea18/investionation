@@ -1,0 +1,28 @@
+{
+    "array": [
+        {
+            "company": "1",
+            "project": "1",
+            "action": "1",
+            "price": "1",
+            "timePlaced": "1",
+            "timeCompleted": "1"
+        },
+        {
+            "company": "2",
+            "project": "2",
+            "action": "2",
+            "price": "2",
+            "timePlaced": "2",
+            "timeCompleted": "2"
+        },
+        {
+            "company": "3",
+            "project": "3",
+            "action": "3",
+            "price": "3",
+            "timePlaced": "3",
+            "timeCompleted": "3"
+        }
+    ]
+}
